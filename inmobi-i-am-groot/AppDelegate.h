@@ -9,14 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <InMobiSDK/InMobiSDK.h>
 
-// @import InMobiSDK;
-/**Please do not remove the window property as it can lead to undefined behavior**/
-// @property (strong, nonatomic) UIWindow *window;
-
-
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-
+@property (strong, nonatomic) UIWindow *window;
 
 
 

@@ -6,6 +6,13 @@
 //  Copyright © 2018 Jason C. All rights reserved.
 //
 
+
+@import InMobiSDK.IMSdk;
+
+#ifndef INMOBI_ACCOUNT_ID
+#define INMOBI_ACCOUNT_ID   @"4028cb8b2c3a0b45012c406824e800ba"
+#endif
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -22,8 +29,12 @@
     [consentdict setObject:@"true" forKey:IM_GDPR_CONSENT_AVAILABLE];
     [consentdict setObject:@1 forKey:@"gdpr"];
     //Initialize InMobi SDK with your account ID
-    [IMSdk initWithAccountID:@"123" consentDictionary:consentdict];
+    [IMSdk initWithAccountID:INMOBI_ACCOUNT_ID consentDictionary:consentdict];
     // Do your stuff.
+    
+    [IMSdk setLogLevel:kIMSDKLogLevelDebug];
+
+    
     return YES;
 }
 
