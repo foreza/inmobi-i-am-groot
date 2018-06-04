@@ -1,0 +1,16 @@
+PODS:
+  - InMobiSDK (7.1.1)
+
+DEPENDENCIES:
+  - InMobiSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - InMobiSDK
+
+SPEC CHECKSUMS:
+  InMobiSDK: 8306ff9c9a966b4a43dd957f57b407a1a9ab7ba5
+
+PODFILE CHECKSUM: d6d2cc6215244e5646d7429715fb8fbb8a418b2a
+
+COCOAPODS: 1.5.3

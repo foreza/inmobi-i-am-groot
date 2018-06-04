@@ -15,8 +15,15 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSMutableDictionary *consentdict=[[NSMutableDictionary alloc]init];
+    //consent value needs to be collected from the end user
+    [consentdict setObject:@"true" forKey:IM_GDPR_CONSENT_AVAILABLE];
+    [consentdict setObject:@1 forKey:@"gdpr"];
+    //Initialize InMobi SDK with your account ID
+    [IMSdk initWithAccountID:@"123" consentDictionary:consentdict];
+    // Do your stuff.
     return YES;
 }
 

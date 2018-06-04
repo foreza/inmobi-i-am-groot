@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECC3079F47B2391977210DFB07F98FC /* Pods-inmobi-i-am-groot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAA6427544593898ED874861C54E7A /* Pods-inmobi-i-am-groot-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		097A17BDA0D2CC768E2BE7F78C5C3797 /* Pods-inmobi-i-am-groot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmobi-i-am-groot.release.xcconfig"; sourceTree = "<group>"; };
+		368A9E682A15CBC99CAFCE3F223ADC02 /* Pods-inmobi-i-am-groot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmobi-i-am-groot.debug.xcconfig"; sourceTree = "<group>"; };
+		8635979CCA6493F19BB6BB0C631B488C /* Pods-inmobi-i-am-groot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmobi-i-am-groot-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEAA6427544593898ED874861C54E7A /* Pods-inmobi-i-am-groot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inmobi-i-am-groot-dummy.m"; sourceTree = "<group>"; };
+		A2D6B6A265E74FC472CCECD0209719AC /* libPods-inmobi-i-am-groot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-inmobi-i-am-groot.a"; path = "libPods-inmobi-i-am-groot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72CD4AE2A8954946AC94C851606762B /* Pods-inmobi-i-am-groot-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inmobi-i-am-groot-resources.sh"; sourceTree = "<group>"; };
+		E329099B63CE0F37ECF8B071B166E218 /* Pods-inmobi-i-am-groot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inmobi-i-am-groot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1AC29353D4E13D53F25856D5F669414 /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
+		F42642DA6A4CF391DEC230651F99F08B /* Pods-inmobi-i-am-groot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inmobi-i-am-groot-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7418DCB51272F16D0E871A8F5347AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		211AF100E47E3A9E1E8BF20FB8BEB9AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B61AF2D2371A08DFC1A88529AEEDB /* Pods-inmobi-i-am-groot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42C89FA18E0B970BE83553E8C5FEF439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D6B6A265E74FC472CCECD0209719AC /* libPods-inmobi-i-am-groot.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B13006724C89C9B7B7467CA54A4801C /* InMobiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				81E3ECED40E781FD61C8B80F268B887A /* Frameworks */,
+			);
+			name = InMobiSDK;
+			path = InMobiSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				F9A165489E60F0FF07253EA9DA0E0D9F /* Pods */,
+				42C89FA18E0B970BE83553E8C5FEF439 /* Products */,
+				211AF100E47E3A9E1E8BF20FB8BEB9AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E3ECED40E781FD61C8B80F268B887A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC29353D4E13D53F25856D5F669414 /* InMobiSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED0B61AF2D2371A08DFC1A88529AEEDB /* Pods-inmobi-i-am-groot */ = {
+			isa = PBXGroup;
+			children = (
+				E329099B63CE0F37ECF8B071B166E218 /* Pods-inmobi-i-am-groot-acknowledgements.markdown */,
+				8635979CCA6493F19BB6BB0C631B488C /* Pods-inmobi-i-am-groot-acknowledgements.plist */,
+				9EEAA6427544593898ED874861C54E7A /* Pods-inmobi-i-am-groot-dummy.m */,
+				F42642DA6A4CF391DEC230651F99F08B /* Pods-inmobi-i-am-groot-frameworks.sh */,
+				D72CD4AE2A8954946AC94C851606762B /* Pods-inmobi-i-am-groot-resources.sh */,
+				368A9E682A15CBC99CAFCE3F223ADC02 /* Pods-inmobi-i-am-groot.debug.xcconfig */,
+				097A17BDA0D2CC768E2BE7F78C5C3797 /* Pods-inmobi-i-am-groot.release.xcconfig */,
+			);
+			name = "Pods-inmobi-i-am-groot";
+			path = "Target Support Files/Pods-inmobi-i-am-groot";
+			sourceTree = "<group>";
+		};
+		F9A165489E60F0FF07253EA9DA0E0D9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B13006724C89C9B7B7467CA54A4801C /* InMobiSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A605DEB185D80F6BE292FDEC0467177 /* Pods-inmobi-i-am-groot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E15703EF89545312963E3A59612323 /* Build configuration list for PBXNativeTarget "Pods-inmobi-i-am-groot" */;
+			buildPhases = (
+				F7AE6758B6960EE3C54E4501BE584BBD /* Sources */,
+				EC7418DCB51272F16D0E871A8F5347AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inmobi-i-am-groot";
+			productName = "Pods-inmobi-i-am-groot";
+			productReference = A2D6B6A265E74FC472CCECD0209719AC /* libPods-inmobi-i-am-groot.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 42C89FA18E0B970BE83553E8C5FEF439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A605DEB185D80F6BE292FDEC0467177 /* Pods-inmobi-i-am-groot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AE6758B6960EE3C54E4501BE584BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECC3079F47B2391977210DFB07F98FC /* Pods-inmobi-i-am-groot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E721A53240DFBAEE7BF34F37E614983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097A17BDA0D2CC768E2BE7F78C5C3797 /* Pods-inmobi-i-am-groot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0AE2D9FFFFAFDA375D084F470BD88E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368A9E682A15CBC99CAFCE3F223ADC02 /* Pods-inmobi-i-am-groot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E15703EF89545312963E3A59612323 /* Build configuration list for PBXNativeTarget "Pods-inmobi-i-am-groot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE2D9FFFFAFDA375D084F470BD88E8 /* Debug */,
+				7E721A53240DFBAEE7BF34F37E614983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
