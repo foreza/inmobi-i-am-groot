@@ -12,6 +12,7 @@
 		92239F7520C5BE9200BABA07 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92239F7420C5BE9200BABA07 /* libz.tbd */; };
 		92239F7720C5C13500BABA07 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92239F7620C5C13500BABA07 /* WebKit.framework */; };
 		92239F7920C5E1AC00BABA07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92239F7820C5E1AC00BABA07 /* main.m */; };
+		92239F7F20C5E83200BABA07 /* groot.png in Resources */ = {isa = PBXBuildFile; fileRef = 92239F7E20C5E83200BABA07 /* groot.png */; };
 		92AFF0C720C5BB7200F30D44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF0C620C5BB7200F30D44 /* AppDelegate.m */; };
 		92AFF0CA20C5BB7200F30D44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFF0C920C5BB7200F30D44 /* ViewController.m */; };
 		92AFF0CD20C5BB7200F30D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF0CB20C5BB7200F30D44 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		92239F7420C5BE9200BABA07 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		92239F7620C5C13500BABA07 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		92239F7820C5E1AC00BABA07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92239F7E20C5E83200BABA07 /* groot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groot.png; path = ../../groot.png; sourceTree = "<group>"; };
 		92AFF0C220C5BB7200F30D44 /* inmobi-i-am-groot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inmobi-i-am-groot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AFF0C520C5BB7200F30D44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92AFF0C620C5BB7200F30D44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		92AFF0B920C5BB7200F30D44 = {
 			isa = PBXGroup;
 			children = (
+				92239F7E20C5E83200BABA07 /* groot.png */,
 				92AFF0C420C5BB7200F30D44 /* inmobi-i-am-groot */,
 				92AFF0C320C5BB7200F30D44 /* Products */,
 				5D83626FC3BC72246C1932AF /* Pods */,
@@ -170,6 +173,7 @@
 				92AFF0D220C5BB7300F30D44 /* LaunchScreen.storyboard in Resources */,
 				92AFF0CF20C5BB7300F30D44 /* Assets.xcassets in Resources */,
 				92AFF0CD20C5BB7200F30D44 /* Main.storyboard in Resources */,
+				92239F7F20C5E83200BABA07 /* groot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

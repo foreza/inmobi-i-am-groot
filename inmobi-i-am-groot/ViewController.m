@@ -34,6 +34,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Load a groot.
+    
+        UIImageView *myImage = [[UIImageView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 320)/2, 0, 320, 460)];
+        myImage.image = [UIImage imageNamed:@"groot.png"];
+        [self.view addSubview:myImage];
+    
     self.banner = [[IMBanner alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 320)/2, self.view.frame.size.height-70, 320, 50) placementId:INMOBI_BANNER_PLACEMENT];
 
     //Optional: set a delegate to be notified if the banner is loaded/failed etc.
@@ -53,6 +59,9 @@
     
     
     NSLog(@"View loaded");
+    
+
+
 
 }
 
